@@ -1,0 +1,74 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    min-width: 70vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}
+.center{
+    row-gap: 5px;
+    margin: auto;
+}
+.padding{
+    padding-bottom: 20px;
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 200px;
+}
+button{
+
+    align-self: center;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(0, 110, 255);
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(64, 149, 206);
+}
+.content{
+    width: 50vw;
+    /* background-color: aqua; */
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title{
+    min-width: 10vw;
+}
