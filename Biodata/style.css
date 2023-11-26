@@ -1,0 +1,18 @@
+.body {
+    background-color: #ffffff;
+  }
+.table {
+    background-color: bisque;
+    height: 100px;
+    border-color: black;
+}
+.biodata {
+  background-color: rgb(204, 231, 240);
+  border: 2px solid rgb(255, 255, 255);
+  margin: 20px;
+  padding: 20px;
+}
+.judul {
+    background-color: azure;
+    font-style: oblique;
+}
